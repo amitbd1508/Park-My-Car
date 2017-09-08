@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="30dp"
+       android:orientation="vertical">
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="18dp"
+           android:padding="5dp"
+           android:elevation="8dp"
+           android:id="@+id/newpost"
+           android:text="Add New Post"
+           android:textSize="18sp"
+           android:layout_below="@+id/list"
+
+           android:textStyle="bold"
+           android:background="#757575"
+           android:textColor="#fcfbfb"/>
+
+
+       <android.support.v7.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_margin="10dp"
+           android:padding="5dp"
+           android:elevation="6dp"
+           android:id="@+id/list"
+
+           >
+
+       </android.support.v7.widget.RecyclerView>
+   </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "386846930838",
+    "firebase_url": "https://park-my-car-96ad9.firebaseio.com",
+    "project_id": "park-my-car-96ad9",
+    "storage_bucket": "park-my-car-96ad9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386846930838:android:25b2d973382b0ecd",
+        "android_client_info": {
+          "package_name": "com.blakflag.parkmycar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386846930838-8omei8hflf29mm30ps55abr4m2s2kj4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_GvzpaAat3chhDJ6EBsl1CVDNewymB2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
