@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\19fa453c14e0d89c46106ec38cdfc3efd74c9de0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_f83835ce13b79129e46b5d773bba077e3b0d6e75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\39934ee9a22445cfbbc15f2ff05ae512b16eb51f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_e9bf1904d9a1ad930ba6f78ca1c7905d67e365cf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\6fca8a49b54ea1b29dccf79f54d9f8bd0b761a48\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_890fcc1ae2a1fdbec700ac3e9e3e3df7e6bda379\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\a96ce355529d47ee031fc8c617963bf0b0beff48\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8eb551963af29c7faacd640a4e74a8e9e698ab90">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6c68d857c3de32bacbc1d1a8a704b23078c412f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\c3ea893db0e254a3896bde664c29983c70941820\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_a1b57d908ea614c62f4075582718ccb4a1fe519d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\19fa453c14e0d89c46106ec38cdfc3efd74c9de0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f83835ce13b79129e46b5d773bba077e3b0d6e75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\39934ee9a22445cfbbc15f2ff05ae512b16eb51f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9bf1904d9a1ad930ba6f78ca1c7905d67e365cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_9b2b48a7e228dd8a4a972e7f755814d97806950e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\a7f0c9f4da074f4473682811b31b460dc38edc96\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_313dabd3272c94d9a847870397dc7ee0c8e1a355.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\picasso-2.5.2_9b2b48a7e228dd8a4a972e7f755814d97806950e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\ee199241d3d9da8c23d37bdc53163e7d2f72df21\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f8023822963e161a6bdc9bcbff31231abab914c8">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_61ef0d4d14bfe87eb7c5866ac630193b73c6f68f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\c3ea893db0e254a3896bde664c29983c70941820\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a1b57d908ea614c62f4075582718ccb4a1fe519d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\70875b33c474bf500cdd65664e2db794e4090699\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f90417658e710c267ae9a39ed0984c4ddc026b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\70875b33c474bf500cdd65664e2db794e4090699\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_7f90417658e710c267ae9a39ed0984c4ddc026b3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\cc4c45635432bcfce59cb36d9aa203ab6ae82870\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7046d9dc20584852f3c80cf2bf3783a078f5d21d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\49252f56ef64efa3f340f7e20a52d03629a1a126\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d4aa851ed799862181943317d92144b27a297d28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\819a68329e647efef3933e23d369fc4fe27671f1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_faffe2729bce0ff0d3afff1e6daed5d43b0ba57e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\e1105b415a42ab0ce7d85cbf27091066538b97cc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="353b97449b07de3c80796b35d7bb80b8fd09f0e8">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_932e07edd89664adddaec17ed2d13bfe9bc00806\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\819a68329e647efef3933e23d369fc4fe27671f1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_faffe2729bce0ff0d3afff1e6daed5d43b0ba57e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\f32cdc6f9c7fe3f993f0a2635698480fe49e0d99\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_726b17f2a25a8471daca86aa98f60fcf4590f283\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\a7f0c9f4da074f4473682811b31b460dc38edc96\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_313dabd3272c94d9a847870397dc7ee0c8e1a355\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\f32cdc6f9c7fe3f993f0a2635698480fe49e0d99\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_726b17f2a25a8471daca86aa98f60fcf4590f283.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\6fca8a49b54ea1b29dccf79f54d9f8bd0b761a48\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_890fcc1ae2a1fdbec700ac3e9e3e3df7e6bda379.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\4b0c44451bba4e5ef2e8b7b0945bd15d3e17439e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_fc48fccb49ae7f623e19a9eefcbac2f08550ca90.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\4e967e28d64c530189117382a2b8856bd8c72a43\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c19825a50d56d3d955a6306e518591eedd6db06e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\4b0c44451bba4e5ef2e8b7b0945bd15d3e17439e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc48fccb49ae7f623e19a9eefcbac2f08550ca90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\d33afad81d0596d9eb9708af120971003d9a715c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="38bc45b46f24bbd8573bf1137d8808dc43515e8c">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_197d57d839764d83fbb8d08e7745a55f87271111\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e686e51a854fcab59ede41772669b32593383fce\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\4e967e28d64c530189117382a2b8856bd8c72a43\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_c19825a50d56d3d955a6306e518591eedd6db06e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\eb714adef60acb6c62e352dffef81bfabe1364c1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_03ff84df5ce8cc68cd678a6656bce0d42db571e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\6baa0877aebc46d1f0638503901d4a86c3f43df7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_5b5c410e7103fc53e11b4b5a8a9f7709041ef467.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\c6245b581d8c344bc29063dcc4ad791180957bfe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8cea3bdec8fdf00f8c6319ee251d7e104b2bb140\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\6baa0877aebc46d1f0638503901d4a86c3f43df7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b5c410e7103fc53e11b4b5a8a9f7709041ef467\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\eb714adef60acb6c62e352dffef81bfabe1364c1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_03ff84df5ce8cc68cd678a6656bce0d42db571e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\c6245b581d8c344bc29063dcc4ad791180957bfe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_8cea3bdec8fdf00f8c6319ee251d7e104b2bb140.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b0ba8ea91f1224ef8bc5a49260bec2e657cdacf9">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d945163c0cc537ec5ab8ebb3bc1ee81a0aa9df81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\f777a6a7ae242a1f9ed9dad44aebcf0ceb9ae204\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cf251baf39f5c5138224b67b4106eb6331abbd13">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ce3e8b00f89f26cce817b3cd8a765d9835e1d4c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amit\.android\build-cache\e40c1cdd919c5f3e43c8c6d10c0ab654a60b4e7b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\pre-dexed\release\classes_54058ecfb2785affa83b5c9fb7d0660fd376b2dc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\f929de35b7b844c31a2544e35e83d160df6a7f78\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="25e8af11fff99ad02250f52f2436e25f60cc1bbe">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f0a9b0a00e7038ccb1eddd6e642fdfa67e868c0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Amit\.android\build-cache\e40c1cdd919c5f3e43c8c6d10c0ab654a60b4e7b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_54058ecfb2785affa83b5c9fb7d0660fd376b2dc\classes.dex" />
+    </item>
+
+</items>
