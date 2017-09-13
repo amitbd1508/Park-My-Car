@@ -7,6 +7,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <!--
@@ -71,7 +72,8 @@
         <activity android:name=".activity.RentPostActivity" />
         <activity android:name=".activity.AddRentPostActivity" />
         <activity android:name=".activity.ParkRequstActivity" />
-        <activity android:name=".activity.RentHistoryActivity"></activity>
+        <activity android:name=".activity.RentHistoryActivity" />
+        <activity android:name=".activity.AcountActivity"></activity>
     </application>
 
 </manifest>

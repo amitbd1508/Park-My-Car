@@ -7,6 +7,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 
@@ -59,12 +62,7 @@ public class RentPostActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(parkinfoAdapter);
       //  boxLoader.setVisibility(View.GONE);
-        findViewById(R.id.newpost).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),AddRentPostActivity.class));
-            }
-        });
+
         postref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -92,6 +90,21 @@ public class RentPostActivity extends AppCompatActivity {
             }
         });
         Drawer();
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.rent_menu, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.add:
+                startActivity(new Intent(getApplicationContext(),AddRentPostActivity.class));
+                break;
+
+        }
+        return super.onOptionsItemSelected(item);
     }
     public void Drawer() {
 
@@ -122,6 +135,9 @@ public class RentPostActivity extends AppCompatActivity {
                         }
                         else if (drawerItem.equals(1)) {
                             startActivity(new Intent(getApplicationContext(), RentHistoryActivity.class));
+                        }
+                        else if (drawerItem.equals(0)) {
+                            startActivity(new Intent(getApplicationContext(), AcountActivity.class));
                         }
 
                         return true;

@@ -58,6 +58,7 @@ import java.io.IOException;
 import java.text.Format;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
@@ -98,6 +99,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     ArrayAdapter<String> lvAdapter;
     List<Address> addressList = null;
 
+    TextView requesterName;
+
     TextView parking_price,parking_address;
     Button request;
     View requstCard;
@@ -126,6 +129,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
+
         parkingList=new ArrayList<ParkingInfo>();
 
         Drawer();
@@ -139,6 +143,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         ivMenu= (ImageView) findViewById(R.id.drawer_menue);
 
         requstCard=findViewById(R.id.requstcard);
+        requesterName= (TextView) findViewById(R.id.response_contact_person);
         requstCard.setVisibility(View.GONE);
         parking_address= (TextView) findViewById(R.id.tv_parking_address);
         parking_price= (TextView) findViewById(R.id.tv_price);
@@ -207,6 +212,20 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         });
 
+
+        findViewById(R.id.btnResponseContatc).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+
+                    Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
+                    startActivity(intent);
+                }catch (Exception ex)
+                {
+
+                }
+            }
+        });
         lvSearchList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -234,9 +253,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 requestProgress.setMessage("Requesting...");
                 requestProgress.show();
                 ParkingRequst parkingRequst=new ParkingRequst();
-                Format dateFormat = android.text.format.DateFormat.getDateFormat(getApplicationContext());
-                String pattern = ((SimpleDateFormat) dateFormat).toLocalizedPattern();
-                parkingRequst.date=pattern;
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
+                String currentDateandTime = sdf.format(new Date());
+                parkingRequst.date=currentDateandTime;
                 parkingRequst.distance=distance(req.latitude,req.longitude,res.latitude,res.longitude);
                 parkingRequst.isBookingOver=0;
                 parkingRequst.isBookingConfirm=0;
@@ -257,6 +276,27 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             }
         });
+        parkingReqref.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for (DataSnapshot child : dataSnapshot.getChildren()) {
+                    ParkingRequst parkingRequst = child.getValue(ParkingRequst.class);
+
+                    if(parkingRequst.isBookingConfirm==1){
+                        child.getRef().removeValue();
+                        Log.d("Removeing value","Removed ");
+
+
+                    }
+
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
 
         parkingReqref.addValueEventListener(new ValueEventListener() {
             @Override
@@ -266,6 +306,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     ParkingRequst parkingRequst=child.getValue(ParkingRequst.class);
                     if(parkingRequst.requesterEmail.equals(App.user.email) && parkingRequst.isBookingConfirm==1)
                     {
+                        requesterName.setText(parkingRequst.getRequesterContactNo()+"\n"+parkingRequst.getParkingAddress());
+                        phone=parkingRequst.getRequesterContactNo();
+
                         requstCard.setVisibility(View.GONE);
                         if(requestProgress!=null)
                             requestProgress.dismiss();
@@ -283,6 +326,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
+    public  String phone="01654564646645";
 
     private double distance(double lat1, double lon1, double lat2, double lon2) {
         double theta = lon1 - lon2;
@@ -304,10 +348,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         AccountHeader headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
-                .withHeaderBackground(R.drawable.add)
+                .withHeaderBackground(R.drawable.background)
                 .addProfiles(
                         new ProfileDrawerItem().withName(App.user.name).withEmail(App.user.email).
-                                withIcon(getResources().getDrawable(R.drawable.add))
+                                withIcon(getResources().getDrawable(R.drawable.parking))
                 )
                 .build();
 
@@ -328,10 +372,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             startActivity(new Intent(getApplicationContext(), RentHistoryActivity.class));
                         }
                         else if (drawerItem.equals(1)) {
-                            startActivity(new Intent(getApplicationContext(), MapsActivity.class));
+                            //startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                         }
                         else if (drawerItem.equals(2)) {
-                            startActivity(new Intent(getApplicationContext(), MapsActivity.class));
+                            startActivity(new Intent(getApplicationContext(), AcountActivity.class));
                         }
 
                         return true;

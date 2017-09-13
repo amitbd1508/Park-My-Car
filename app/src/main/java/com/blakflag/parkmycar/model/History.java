@@ -6,4 +6,5 @@ package com.blakflag.parkmycar.model;
 
 public class History {
     public String carOwnerName,parkOwnerName,price,paymentMethod,totaltime;
+    public String carowneremail,parkowneremail;
 }

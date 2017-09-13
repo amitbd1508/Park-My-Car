@@ -12,7 +12,7 @@
         android:paddingLeft="24dp"
         android:paddingRight="24dp">
 
-        <ImageView android:src="@mipmap/ic_launcher"
+        <ImageView android:src="@drawable/parking"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginBottom="24dp"

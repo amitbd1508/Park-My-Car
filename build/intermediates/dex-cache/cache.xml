@@ -322,7 +322,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="46fca105b170452ec1a1aa8a4aa991765e80b567">
+        sha1="cd236b698c947c6beb7b0697f42c982e06a3b308">
         <dex dex="D:\working file\Android\android-vision\visionSamples\ocr-codelab\ParkMyCar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d945163c0cc537ec5ab8ebb3bc1ee81a0aa9df81\classes.dex" />
     </item>
     <item

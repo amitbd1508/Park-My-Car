@@ -123,6 +123,9 @@ public class ParkRequstActivity extends AppCompatActivity implements IRequestCal
                             history.parkOwnerName=parkingRequst1.parkingAddress;
                             history.totaltime=parkingRequst1.hour+"";
                             history.price=parkingRequst1.totalPrice+"";
+                            history.parkowneremail=parkingRequst1.getParkingEmail();
+                            history.carowneremail=parkingRequst1.requesterEmail;
+                            historyref.push().setValue(history);
 
                             break;
                         }
