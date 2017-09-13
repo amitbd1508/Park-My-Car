@@ -70,7 +70,8 @@
             android:label="@string/title_activity_rent_user_map" />
         <activity android:name=".activity.RentPostActivity" />
         <activity android:name=".activity.AddRentPostActivity" />
-        <activity android:name=".activity.ParkRequstActivity"></activity>
+        <activity android:name=".activity.ParkRequstActivity" />
+        <activity android:name=".activity.RentHistoryActivity"></activity>
     </application>
 
 </manifest>

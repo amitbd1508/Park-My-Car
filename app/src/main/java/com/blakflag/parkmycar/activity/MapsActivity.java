@@ -117,7 +117,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     TrackerSettings settings;
     List<ParkingInfo>parkingList;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -137,7 +136,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         parkingReqdb = FirebaseDatabase.getInstance();
         parkingReqref = postdb.getReference(App.PARKING_REQUSET_DB);
 
-        ivMenu= (ImageView) findViewById(R.id.iv_map_drawer);
+        ivMenu= (ImageView) findViewById(R.id.drawer_menue);
 
         requstCard=findViewById(R.id.requstcard);
         requstCard.setVisibility(View.GONE);
@@ -307,7 +306,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .withActivity(this)
                 .withHeaderBackground(R.drawable.add)
                 .addProfiles(
-                        new ProfileDrawerItem().withName("Full Name").withEmail("Email").
+                        new ProfileDrawerItem().withName(App.user.name).withEmail(App.user.email).
                                 withIcon(getResources().getDrawable(R.drawable.add))
                 )
                 .build();
@@ -317,15 +316,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .withDrawerWidthDp(250)
                 .withAccountHeader(headerResult)
                 .addDrawerItems(
-                        new PrimaryDrawerItem().withName("History").withIdentifier(1),
-                        new PrimaryDrawerItem().withName("Pending Requset").withIdentifier(2),
-                        new PrimaryDrawerItem().withName("Trip History").withIdentifier(0)
+                        new PrimaryDrawerItem().withName("Park History").withIdentifier(0),
+                        new PrimaryDrawerItem().withName("Pending Requset").withIdentifier(1),
+                        new PrimaryDrawerItem().withName("Account").withIdentifier(2)
 
                 )
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
                         if (drawerItem.equals(0)) {
+                            startActivity(new Intent(getApplicationContext(), RentHistoryActivity.class));
+                        }
+                        else if (drawerItem.equals(1)) {
+                            startActivity(new Intent(getApplicationContext(), MapsActivity.class));
+                        }
+                        else if (drawerItem.equals(2)) {
                             startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                         }
 
@@ -337,7 +342,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         result.closeDrawer();
         result.isDrawerOpen();
 
-        /*ivMenu.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.drawer_menue).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (result.isDrawerOpen()) {
@@ -346,7 +351,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     result.openDrawer();
                 }
             }
-        });*/
+        });
     }
 
     private double deg2rad(double deg) {

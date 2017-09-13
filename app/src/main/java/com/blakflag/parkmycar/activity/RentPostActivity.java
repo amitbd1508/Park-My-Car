@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.ListView;
@@ -72,9 +73,14 @@ public class RentPostActivity extends AppCompatActivity {
                 recyclerView.setVisibility(View.VISIBLE);
                 parkinfoAdapter.notifyDataSetChanged();
                 for (DataSnapshot child : dataSnapshot.getChildren()) {
+
                     ParkingInfo parkingInfo = child.getValue(ParkingInfo.class);
-                    parkingInfos.add(parkingInfo);
-                    parkinfoAdapter.notifyDataSetChanged();
+                    Log.d("Rent post",parkingInfo.submittedBy+" == "+App.user.email);
+                    if(parkingInfo.submittedBy==App.user.email || parkingInfo.submittedBy.equals(App.user.email)){
+                        parkingInfos.add(parkingInfo);
+                        parkinfoAdapter.notifyDataSetChanged();
+                    }
+
 
                 }
 
@@ -89,14 +95,12 @@ public class RentPostActivity extends AppCompatActivity {
     }
     public void Drawer() {
 
-
-
         AccountHeader headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
-                .withHeaderBackground(R.drawable.add)
+                .withHeaderBackground(R.drawable.background)
                 .addProfiles(
-                        new ProfileDrawerItem().withName("Full Name").withEmail("Email").
-                                withIcon(getResources().getDrawable(R.drawable.add))
+                        new ProfileDrawerItem().withName(App.user.name).withEmail(App.user.email).
+                                withIcon(getResources().getDrawable(R.drawable.parking))
                 )
                 .build();
 
@@ -115,6 +119,9 @@ public class RentPostActivity extends AppCompatActivity {
                     public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
                         if (drawerItem.equals(2)) {
                             startActivity(new Intent(getApplicationContext(), ParkRequstActivity.class));
+                        }
+                        else if (drawerItem.equals(1)) {
+                            startActivity(new Intent(getApplicationContext(), RentHistoryActivity.class));
                         }
 
                         return true;

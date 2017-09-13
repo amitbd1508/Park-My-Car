@@ -190,7 +190,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void onLoginFailed(String error) {
-        Toast.makeText(getBaseContext(), error, Toast.LENGTH_LONG).show();
+        //Toast.makeText(getBaseContext(), error, Toast.LENGTH_LONG).show();
 
         _loginButton.setEnabled(true);
     }

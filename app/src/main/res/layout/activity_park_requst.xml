@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".activity.RentPostActivity"
-    tools:showIn="@layout/activity_rent_post">
+    tools:context=".activity.ParkRequstActivity"
+    tools:showIn="@layout/activity_park_requst">
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"

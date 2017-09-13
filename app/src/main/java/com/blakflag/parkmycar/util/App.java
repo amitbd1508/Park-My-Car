@@ -10,6 +10,7 @@ public  class App {
     public final static String USER_DB="PARKING_USER/User_db";
     public final static String RENT_PARKINFO_DB="RENT_USER/parkinfo";
     public final static String PARKING_REQUSET_DB="RENT_USER/PARKING_REQUSET";
+    public static final String PARKING_HISTORY_DB = "History/RentHistoryDB";
     public static User user;
     public static void initUser()
     {
